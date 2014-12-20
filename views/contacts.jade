@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  .container
+    table.table.table-striped.table-hover.table-bordered
+      thead
+        tr
+          th Contact Name
+      tbody
+        for contact in contacts
+          tr
+            if contact.type == 'name'
+              td #{contact.value.givenName} #{contact.value.familyName}
+            else
+              td #{contact.value}

@@ -1,0 +1,13 @@
+{
+  "name": "oauth2",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.10.0",
+    "express": "^5.0.0-alpha.1",
+    "express-session": "^1.9.3",
+    "jade": "^1.8.2",
+    "mongoose": "^3.8.21",
+    "request": "^2.51.0"
+  }
+}

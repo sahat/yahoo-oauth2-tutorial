@@ -1,0 +1,99 @@
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.navbar-default .navbar-toggle {
+  background: #404040;
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #262626;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #4a4a4a;
+}
+
+.navbar-default {
+  background-color: #333;
+  border-color: #1a1a1a;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.1s linear;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #fff;
+}
+
+.navbar-form .form-control {
+  background: #404040;
+  border: 1px solid #262626;
+  padding: .5em .8em;
+  font-size: .9em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-default {
+  border: 0;
+  background-color: #477DCA;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.1s linear;
+
+}
+
+.btn-default:hover,
+.btn-default:focus {
+  background-color: #2c5999;
+  color: white;
+}
+
+.bs-docs-header {
+  position: relative;
+  padding: 30px 15px;
+  color: #cdbfe3;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+  background: #6f5499 linear-gradient(to bottom, #563d7c 0, #6f5499 100%) repeat-x;
+}
+
+.bs-docs-header {
+  margin-top: -20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 24px;
+  text-align: left;
+}
+
+.bs-docs-header h1 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.long-text {
+  word-wrap: break-word;
+}

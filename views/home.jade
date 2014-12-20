@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  if user
+    .bs-docs-header
+      .container
+        h1 Welcome, #{user.firstName}
+        p Using GUID and Access Token information below you can query various Yahoo APIs.
+
+  .container
+    if user
+      h3 Profile Image
+      img(src='#{user.profileImage}', width=92, height=92)
+      h3 Email
+      span= user.email
+      h3 GUID
+      span= user.guid
+      h3 Access Token
+      div.long-text #{user.accessToken}
+    else
+      .lead Please sign-in to view profile information.
