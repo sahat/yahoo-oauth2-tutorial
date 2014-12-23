@@ -120,7 +120,7 @@ app.get('/auth/yahoo/callback', function(req, res) {
 
     // 2. Retrieve profile information about the current user.
     request.get(options, function(err, response, body) {
-      console.log(body.profile.emails[0]);
+
       // 3. Create a new user account or return an existing one.
       User.findOne({ guid: guid }, function(err, existingUser) {
         if (existingUser) {
